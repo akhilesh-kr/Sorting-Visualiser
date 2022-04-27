@@ -21,14 +21,11 @@ var delay_time=1000/(Math.floor(array_size/10)*speed);
 var c_delay=0;
 
 
-/*function for updating div color for visualization of various algoriths*/
+/*function for updating bar color and bar heights for visualization of various algoriths*/
 function div_update(arr_cont,height,color){
    window.setTimeout(function(){
     arr_cont.style="margin:0%"+margin_size + "%;width:"+(100/array_size-(2*margin_size))+ "%; height:"+height + "%; background-color :"+color + ";";
    },c_delay+=delay_time) ;
-}
-function div_update1(color){
-    arr_cont.style="background-color:color;"
 }
 
 /*function for enabling other buttons after the algorithm finishes */
