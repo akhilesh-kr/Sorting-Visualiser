@@ -13,27 +13,31 @@
 <body>
     <div class="container">
         <nav class="navbar navbar-expand-sm bg-light navbar-light justify-content-center">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#"><b>Sorting Visualiser</b></a>
-            <div class="array_inputs">               
-              Size : 
-              <input id="arr_size" type="range" min=20 max="150" step=1 value=75>&nbsp;&nbsp;
-              Speed :
-              <input id="arr_speed" type ="range" min=1 max=5 step=1 value=3>
-              &nbsp;&nbsp;
-              <button type="button" class="btn btn-danger" id="arr_gen">Generate New Array</button> 
-            </div>
-            <div class="algorithms">  
-              <button type="button" class="btn btn-dark">Bubble</button>
-              <button type="button" class="btn btn-dark">Selection</button>
-              <button type="button" class="btn btn-dark">Insertion</button>
-              <button type="button" class="btn btn-dark">Merge</button>
-              <button type="button" class="btn btn-dark">Quick</button>
-              <button type="button" class="btn btn-dark">Heap</button>
-            </div>
-          </div>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><b>Sorting Visualiser</b></a>
+                <div class="array_inputs">               
+                  Size : 
+                  <input id="arr_size" type="range" min=20 max="150" step=1 value=75>&nbsp;&nbsp;
+                  Speed :
+                  <input id="arr_speed" type ="range" min=1 max=5 step=1 value=3>
+                  &nbsp;&nbsp;
+                  <button type="button" class="btn btn-danger" id="arr_gen">Generate New Array</button> 
+                </div>
+                <div class="algorithms">  
+                  <div class="btn-group">
+                      <button type="button" class="btn btn-dark">Bubble</button>
+                      <button type="button" class="btn btn-dark">Selection</button>
+                      <button type="button" class="btn btn-dark">Insertion</button>
+                  </div>
+                  <div class="btn-group">
+                      <button type="button" class="btn btn-dark">Merge</button>
+                      <button type="button" class="btn btn-dark">Quick</button>
+                      <button type="button" class="btn btn-dark">Heap</button>
+                  </div>
+                </div> 
+            </div> 
         </nav>
-      
+      <br><br>
         <div id="arr_container"></div>
 
     </div>
