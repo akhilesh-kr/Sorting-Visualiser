@@ -1,11 +1,14 @@
 #arr_container {
-    margin-top: 100 px;
+   margin-top: 50 px !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     width: 100%;
     height: 70vh;
-  }
-  nav{
-    margin-top: 10 rem;
-  }
+}
+nav{
+    display: flex;
+}
+.container{
+    margin-top: 35px;
+}
